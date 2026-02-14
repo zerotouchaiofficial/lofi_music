@@ -1,91 +1,63 @@
 # 🔒 Security Policy
 
-## 📌 Supported Versions
+## Supported Versions
 
-The following versions of Zero Touch Music currently receive security updates:
+| Version | Supported |
+|---------|-----------|
+| Latest  | ✅ Yes    |
+| Older   | ❌ No     |
 
-| Version | Supported          |
-|---------|-------------------|
-| Latest  | ✅ Yes             |
-| Older versions | ❌ No      |
-
-Please ensure you are using the latest version before reporting vulnerabilities.
+Always use the latest version.
 
 ---
 
-## 🚨 Reporting a Vulnerability
+## Reporting a Vulnerability
 
-If you discover a security vulnerability, **please do not open a public issue**.
+**Do not open a public issue for security concerns.**  
 
-Instead, report it responsibly by emailing:
+Report securely via email:  
+📧 `zerotouchai.official@gmail.com`
 
-📧 zerotouchai.official@gmail.com  
+Include:
 
-Include the following details:
-
-- Description of the vulnerability
-- Steps to reproduce
-- Potential impact
-- Screenshots or logs (if applicable)
-- Suggested fix (if available)
+- Description of the vulnerability  
+- Steps to reproduce  
+- Potential impact  
+- Logs or screenshots (if applicable)  
+- Suggested fixes (optional)
 
 You will receive acknowledgment within 48 hours.
 
----
-
-## 🔐 Security Best Practices
-
-When using Zero Touch Music:
-
-- Keep your YouTube API credentials secure.
-- Never commit API keys, OAuth secrets, or email passwords.
-- Use environment variables for sensitive information.
-- Enable 2-factor authentication on your Google account.
-- Use app-specific passwords for SMTP access.
-- Regularly rotate API keys and credentials.
+For reference, see the repo: [Zero Touch Music GitHub](https://github.com/zerotouchaiofficial/Zero-Touch-Music/)
 
 ---
 
-## 🛡 Handling Sensitive Data
+## Security Best Practices
 
-This project may require:
-
-- YouTube API credentials
-- OAuth client secrets
-- Email SMTP credentials
-
-Store these securely:
-
-- Use `.env` files (never commit them)
-- Add `.env` to `.gitignore`
-- Use environment variables in production
-
-Example:
-
-```bash
-export YOUTUBE_CLIENT_SECRET="your_secret_here"
-export EMAIL_PASSWORD="your_password_here"
-```
+- Keep API keys and OAuth credentials private.  
+- Never commit secrets to the repo.  
+- Use environment variables or `.env` files.  
+- Enable two-factor authentication for accounts.  
+- Rotate credentials regularly.  
 
 ---
 
-## ⚠️ Responsible Disclosure
+## Handling Sensitive Data
 
-We appreciate responsible disclosure of security issues.
+Sensitive data may include:
 
-- Do not exploit vulnerabilities.
-- Do not access data that is not yours.
-- Do not publicly disclose the issue until it has been resolved.
+- YouTube API credentials  
+- OAuth client secrets  
+- Email SMTP credentials  
 
-We will work quickly to investigate and patch confirmed vulnerabilities.
-
----
-
-## 🔄 Security Updates
-
-Security patches will be released as soon as possible after confirmation.  
-Users are encouraged to update immediately once a patch is published.
+Use `.env` files or environment variables, and **never commit secrets**.
 
 ---
 
-Thank you for helping keep Zero Touch Music secure.
+## Responsible Disclosure
+
+- Do not exploit vulnerabilities.  
+- Do not access unauthorized data.  
+- Do not publicly disclose issues until resolved.  
+
+Confirmed vulnerabilities will be patched promptly.
