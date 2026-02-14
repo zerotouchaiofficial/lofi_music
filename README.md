@@ -1,6 +1,6 @@
 # Zero Touch Music
 
-**Auto LoFi YouTube Uploader** is a fully automated platform designed to create, generate, and upload 1-hour lo-fi music videos to YouTube with zero manual intervention. Leveraging automation and AI-driven processes, this project enables creators, channels, and enthusiasts to maintain a consistent presence on YouTube effortlessly.
+**Zero Touch Music** is a fully automated platform designed to create, generate, and upload 1-hour lo-fi music videos to YouTube with zero manual intervention. Leveraging automation and AI-driven processes, this project enables creators, channels, and enthusiasts to maintain a consistent presence on YouTube effortlessly.
 
 ---
 
