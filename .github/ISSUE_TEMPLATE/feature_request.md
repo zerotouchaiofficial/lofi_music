@@ -1,14 +1,4 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: bug, documentation, duplicate, enhancement, good first issue, help wanted,
-  invalid, question, wontfix
-assignees: zerotouchaiofficial
-
----
-
----
 name: Feature Request
 about: Suggest a new feature or enhancement for Zero Touch Music
 title: "[FEATURE] Short description"
@@ -21,6 +11,8 @@ assignees: ''
 ## 📌 Summary
 
 Provide a clear and concise description of the feature you would like to see added to Zero Touch Music.
+
+For reference, see the repo: [Zero Touch Music GitHub](https://github.com/zerotouchaiofficial/Zero-Touch-Music/)
 
 ---
 
