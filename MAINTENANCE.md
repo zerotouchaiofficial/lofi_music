@@ -39,14 +39,6 @@ This checklist helps maintainers and contributors keep the repo organized, secur
 
 ---
 
-## 🔄 CI/CD
-
-- [ ] **GitHub Actions** – Ensure workflow runs correctly on push/PR.  
-- [ ] **Linting & testing** – `flake8`, `pytest` run successfully.  
-- [ ] Optional deployment workflow safe and credentials secured via GitHub Secrets.  
-
----
-
 ## 🔐 Security
 
 - [ ] No secrets committed (API keys, OAuth, email credentials).  
@@ -76,7 +68,6 @@ This checklist helps maintainers and contributors keep the repo organized, secur
 - Add **badges** to README (Python version, license, build status, coverage).  
 - Add **unit tests** for Python modules.  
 - Expand **docs/ folder** with tutorials or examples.  
-- Automate scheduled uploads via GitHub Actions (advanced).  
 
 ---
 
