@@ -1,181 +1,51 @@
-# Contributing Guidelines
+# 🤝 Contributing to Zero Touch Music
 
-Thank you for your interest in contributing! 🎉  
-We welcome bug fixes, improvements, new features, and documentation updates.
+We welcome contributions from developers, designers, and community members! Your input helps improve automation, usability, and reliability.
 
----
-
-## 📌 Getting Started
-
-### 1. Fork & Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
-
-### 2. Create a Virtual Environment
-
-```bash
-python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-If there is a development requirements file:
-
-```bash
-pip install -r requirements-dev.txt
-```
+For more details, visit the repository: [Zero Touch Music GitHub](https://github.com/zerotouchaiofficial/Zero-Touch-Music/)
 
 ---
 
-## 🌿 Branching
+## How to Contribute
 
-Create a new branch for every change:
-
-```bash
-git checkout -b feature/short-description
-```
-
-Branch naming examples:
-
-- `feature/add-api-endpoint`
-- `fix/validation-error`
-- `refactor/cleanup-logic`
-- `docs/update-readme`
-
----
-
-## 🐛 Reporting Issues
-
-Before opening a new issue:
-
-- Check existing issues to avoid duplicates.
-- Clearly describe the problem.
-- Include steps to reproduce.
-- Provide error messages and logs if available.
-- Mention your Python version.
-
-Example:
-
-```bash
-python --version
-```
+1. **Fork the repository**  
+   ```bash
+   git clone https://github.com/zerotouchaiofficial/Zero-Touch-Music.git
+   ```
+2. **Create a feature branch**  
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make your changes** – Ensure code is clean, modular, and well-documented.  
+4. **Add tests** – For new features or bug fixes.  
+5. **Commit changes**  
+   ```bash
+   git commit -m "Add meaningful commit message"
+   ```
+6. **Push to your fork**  
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+7. **Submit a Pull Request** – Clearly describe your changes, motivation, and impact.
 
 ---
 
-## 🛠 Development Guidelines
+## Guidelines
 
-### Code Style
-
-- Follow PEP 8 style guidelines.
-- Use meaningful variable and function names.
-- Keep functions small and focused.
-- Avoid unnecessary comments.
-- Write docstrings for public functions and classes.
-
-### Formatting (if using Black)
-
-```bash
-black .
-```
-
-### Linting (if using Flake8)
-
-```bash
-flake8 .
-```
+- Follow **PEP 8** for Python code.  
+- Include docstrings and comments for clarity.  
+- Avoid committing sensitive data (API keys, OAuth secrets, email passwords).  
+- Update documentation and README when necessary.  
+- Use [GitHub Discussions](https://github.com/zerotouchaiofficial/Zero-Touch-Music/discussions) for ideas, questions, and bug reports.
 
 ---
 
-## 🧪 Testing
+## Reviewing Process
 
-- Add tests for new features.
-- Ensure all tests pass before submitting a PR.
-
-Run tests:
-
-```bash
-pytest
-```
-
-If using unittest:
-
-```bash
-python -m unittest
-```
+- PRs should be descriptive and linked to issues when relevant.  
+- Maintainers will review, suggest improvements, and merge once verified.  
+- Large changes may be split into multiple PRs for easier review.
 
 ---
 
-## ✍️ Commit Message Guidelines
-
-Use clear, descriptive commit messages.
-
-Format:
-
-```
-type: short description
-```
-
-Examples:
-
-- `feat: add user authentication`
-- `fix: handle empty input error`
-- `refactor: simplify data processing`
-- `docs: update installation guide`
-- `test: add tests for utils module`
-
-Keep commits small and focused.
-
----
-
-## 🔁 Pull Request Process
-
-1. Push your branch:
-
-```bash
-git push origin feature/short-description
-```
-
-2. Open a Pull Request against the `main` branch.
-3. Clearly describe what your PR does.
-4. Ensure:
-   - Code runs without errors
-   - Tests pass
-   - No linting issues
-
----
-
-## 📚 Documentation
-
-Improvements to documentation are always welcome:
-
-- Fix typos
-- Improve explanations
-- Add usage examples
-- Improve docstrings
-
----
-
-## 🏷 Versioning
-
-This project follows Semantic Versioning:
-
-- MAJOR — breaking changes
-- MINOR — new features
-- PATCH — bug fixes
-
----
-
-## 🙌 Thank You
-
-We appreciate your time and effort in making this project better!
-
-Happy coding! 🚀
+Thank you for contributing to **Zero Touch Music**!
